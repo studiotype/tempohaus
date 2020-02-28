@@ -1,0 +1,29 @@
+---
+layout: default
+pageTitle: Books
+title:  Books -- Tempo Haus
+permalink: /books
+---
+
+<div class="banner">
+    <div class="container">
+        <h1>{{page.pageTitle}}</h1>
+    </div>
+</div>
+
+<div class="books-wrapper">
+	<div class="container">
+		<div class="books-list">
+			<ul>
+				{% for post in site.posts %}
+				<li>
+					<a href="{{site.baseurl}}{{post.url}}.html">
+			        	<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+			        </a>
+			    </li>
+			    {% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>	
+
