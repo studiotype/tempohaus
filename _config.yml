@@ -20,7 +20,7 @@ description: "Tempohaus Desc"
 # The subpath of your site
 # Leave baseurl blank when you run it in local
 # baseurl:
-baseurl: https://beingeorge.com/tempohaus
+baseurl: "tempohaus"
 
 # In this theme static CSS is not used. 
 sass:
