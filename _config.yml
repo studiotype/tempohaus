@@ -15,7 +15,7 @@ title: "Tempohaus"
 #
 
 # A description of your site
-description: "Tempohaus Desc"
+description: "A book design and typesetting practice based in Melbourne, Australia."
 
 # The subpath of your site
 # Leave baseurl blank when you run it in local
@@ -43,8 +43,8 @@ navigation:
 permalink: /books/:title
 
 # Author Info
-author_name: "Edward tempohaus"
-author_bio: "Edward tempohaus is often compared to animals, implying that he is not a fully evolved human being."
+author_name: "beingeorge"
+author_bio: ""
 author_url:  "http://beingeorge.com"
 author_image: author.jpg
 
