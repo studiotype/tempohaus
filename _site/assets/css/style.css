@@ -719,6 +719,10 @@ footer .form-control {
     .navbar-light .navbar-brand {
         font-size: 50px;
     }
+    
+    .navbar-custom {
+        padding: 9px 15px
+    }
     .navbar-collapse, .collapsing {
         position: fixed;
         left: 0;
@@ -749,9 +753,6 @@ footer .form-control {
     .navbar-light .navbar-brand {
         font-size: 38px;
         line-height: normal;
-    }
-    .navbar-custom {
-        padding: 9px 15px
     }
     .banner h1, .banner a {
         max-width: 100%;
